@@ -1,0 +1,33 @@
+<header class="devisepage">
+  <div class="text-vertical-center titreheader">
+
+    <h2>Log in</h2>
+
+    <%= bootstrap_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+
+    <div class="field col-md-offset-4 col-md-4">
+      <%= f.email_field :email, autofocus: true %>
+    </div>
+
+    <div class="field col-md-offset-4 col-md-4">
+      <%= f.password_field :password, autocomplete: "off" %>
+    </div>
+
+    <% if devise_mapping.rememberable? -%>
+    <div class="field col-md-offset-4 col-md-4">
+      <%= f.label :remember_me %>
+    </div>
+    <% end -%>
+
+    <div class="actions col-md-12">
+      <%= f.submit "Log in" %>
+      <% end %>
+    </div>
+
+    <div class="col-md-12">
+
+      <%= render "devise/shared/links" %>
+    </div>
+
+  </div>
+</header>

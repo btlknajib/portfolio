@@ -1,0 +1,8 @@
+
+  <% if @likes.count == 0 %>
+    <td>There is no like, so sad...</td>
+  <% elsif @likes.count == 1 %>
+    <td><%= @likes.count %> person has liked it </td>
+  <% else %>
+    <td><%= @likes.count %> persons has liked it </td>
+  <% end %>

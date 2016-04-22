@@ -1,0 +1,283 @@
+<header class="header">
+  <div class="text-vertical-center titreheader">
+    <h1 class="animated fadeIn">Najib Boutellaka</h1>
+
+    <h3 class="animated fadeIn">Web developer | boutellaka.najib@laposte.net</h3>
+  </div>
+</header>
+
+<section class="bg3" id="about">
+  <div class="container comein">
+    <div class="row rowacceuil">
+      <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 text-center">
+        <h2>About</h2>
+        <hr>
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2 text-center textbg3">
+          <p>I'm back-end and front-end developer trained by Simplon to be able to learn by myself different languages but my major focus is on back-end developement on Ruby on Rails but i also have skills in other fields.</p>
+      <i class="fa fa-file-pdf-o fa-2x" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<%= link_to 'Download my CV', send_pdf_path, class:"pdf" %>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="bg1" id="resume">
+  <div class="container ">
+    <div class="row">
+      <div class="col-md-12 col-lg-12 col-xs-12 col-sm-12 text-center comein">
+        <h2>Professional Experiences</h2>
+        <hr>
+      </div>
+      <div class="col-lg-2 col-lg-offset-1 textb1 comein">
+        <h4>EDUCATION</h4>
+      </div>
+      <div class="col-lg-6 textb1 comein">
+        <p>
+          <t>Training Session</t><br/>
+          Simplon, Roubaix
+          <br/>
+          <i>6 Months Course</i>
+        </p>
+      </div>
+      <div class="col-lg-3 textb1 comein">
+        <p>ENDING IN APRIL 2016<br/>
+          <imp>IN PROGRESS</imp>
+        </p>
+      </div>
+
+      <div class="col-lg-6 col-lg-offset-3 textb1 comein">
+        <p>
+          <t>Statistics and Business Intelligence
+          </t><br/>
+          IUT C Roubaix
+          <br/>
+          <i>One Year</i>
+        </p>
+      </div>
+      <div class="col-lg-3 textb1 comein">
+        <p>SEPTEMBER 2014 - JUNE 2015</p>
+      </div>
+
+    </div>
+    <!--/.row -->
+    <br>
+    <hr>
+  </div>
+  <!--/.container -->
+
+  <!--WORK DESCRIPTION -->
+  <div class="container ">
+    <div class="row">
+
+      <div class="col-md-12 col-lg-12 col-xs-12 col-sm-12 text-center comein"><h3>IN WAINTING</h3></div>
+
+    </div>
+    <!--/.row -->
+    <br>
+    <hr>
+  </div>
+  <!--/.container -->
+
+  <!--AWARDS DESCRIPTION -->
+  <div class="container ">
+    <div class="row">
+      <div class="col-lg-2 col-lg-offset-1 comein">
+        <h4>AWARDS</h4>
+      </div>
+      <div class="col-lg-6 comein">
+        <p>
+          <t>3rd Place Start-Up Week-end Roubaix</t><br/>
+          <br/>
+        </p>
+      </div>
+      <div class="col-lg-3 comein">
+        <p>MARCH 2016</p>
+      </div>
+
+    </div>
+    <!--/.row -->
+    <br>
+  </div>
+  <!--/.container -->
+
+</section>
+
+<section class="bg3" id="work">
+
+  <div id="skillswrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 text-center comein">
+          <h3>SKILLS</h3>
+          <hr>
+        </div>
+
+        <div class="col-md-3 col-lg-3 col-xs-12 col-sm-12 text-center comein">
+
+          <canvas height="130" id="ror" width="130"></canvas>
+          <p>Ruby on Rails</p>
+          <br>
+          <script>
+            var doughnutData = [
+              {
+                value: 88,
+                color: "#7fabd9"
+              }, {
+                value: 12,
+                color: "#c74644"
+              }
+            ];
+            var myDoughnut = new Chart(document.getElementById("ror").getContext("2d")).Doughnut(doughnutData);
+          </script>
+        </div>
+
+        <div class="col-md-3 col-lg-3 col-xs-12 col-sm-12 text-center comein">
+
+          <canvas height="130" id="bootstrap" width="130"></canvas>
+          <p>Bootstrap</p>
+          <br>
+          <script>
+            var doughnutData = [
+              {
+                value: 90,
+                color: "#7fabd9"
+              }, {
+                value: 10,
+                color: "#c74644"
+              }
+            ];
+            var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
+          </script>
+        </div>
+
+        <div class="col-md-3 col-lg-3 col-xs-12 col-sm-12 text-center comein">
+
+          <canvas height="130" id="html" width="130"></canvas>
+          <p>HTML/CSS</p>
+          <br>
+          <script>
+            var doughnutData = [
+              {
+                value: 85,
+                color: "#7fabd9"
+              }, {
+                value: 15,
+                color: "#c74644"
+              }
+            ];
+            var myDoughnut = new Chart(document.getElementById("html").getContext("2d")).Doughnut(doughnutData);
+          </script>
+        </div>
+
+        <div class="col-md-3 col-lg-3 col-xs-12 col-sm-12 text-center comein">
+          <canvas height="130" id="javascript" width="130"></canvas>
+          <p>Javascript</p>
+          <br>
+          <script>
+            var doughnutData = [
+              {
+                value: 55,
+                color: "#7fabd9"
+              }, {
+                value: 45,
+                color: "#c74644"
+              }
+            ];
+            var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
+          </script>
+        </div>
+
+      </div>
+    </div>
+    <!--/.row -->
+    <br>
+  </div>
+  <!--/.container -->
+  <!--/ #skillswrap -->
+
+</section>
+
+<section class="bg2" id="stts">
+  <div class="container">
+    <div class="row rowacceuil">
+      <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+
+        <h2>You like it ?</h2>
+        <hr>
+
+                  <% if user_signed_in? %>
+                    <p> Do not hesitate ! Like it !</p>
+                  <% else %>
+                      <p> You have to log in to like it! </p>
+                      <%= link_to "Log in", new_user_session_path%>
+                      <%= link_to "Register", new_user_registration_path %>
+                  <% end %>
+
+
+
+        <table>
+          <thead>
+            <tr></tr>
+          </thead>
+
+          <tbody>
+            <tr class="text-center" id="juif">
+              <%= render partial: 'like', remote: true %>
+            </tr>
+          </tbody>
+        </table>
+
+        <br>
+        <p class="like fa fa-thumbs-o-up fa-2x">
+          <%= link_to ' Like', likeway_path, remote: true %>
+        </p>
+
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+<footer class="bgfooter text-center" id="contact">
+    <div class="footer-above">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <h3>Location</h3>
+                    <p>France</p>
+                </div>
+                <div class="footer-col col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <h3>Boutellaka Najib</h3>
+                    <ul class="list-inline">
+                      <li id="git">
+                        <a class="btn-social btn-outline" href="#">
+                          <i class="fa fa-github-square fa-2x"></i>
+                        </a>
+                      </li>
+                      <li id="fcb">
+                        <a class="btn-social btn-outline" href="#">
+                          <i class="fa fa-facebook fa-2x"></i>
+                        </a>
+                      </li>
+                      <li id="twt">
+                        <a class="btn-social btn-outline" href="#">
+                          <i class="fa fa-twitter-square fa-2x"></i>
+                        </a>
+                      </li>
+                      <li id="envlp">
+                        <a class="btn-social btn-outline" href="#">
+                          <i class="fa fa-envelope fa-2x"></i>
+                        </a>
+                      </li>
+                    </ul>
+                </div>
+                <div class="footer-col col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                    <h3>About me</h3>
+                        <br>More info: boutellaka.najib@laposte.net
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
