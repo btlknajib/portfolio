@@ -5,6 +5,7 @@ development:
   pool: 5
   username: portfolio
   password:
+  host: localhost
 test:
   adapter: postgresql
   encoding: unicode
@@ -12,6 +13,7 @@ test:
   pool: 5
   username: portfolio
   password:
+  host: localhost
 production:
   adapter: postgresql
   encoding: unicode
@@ -19,3 +21,4 @@ production:
   pool: 5
   username: portfolio
   password:
+  host: localhost
