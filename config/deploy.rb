@@ -44,10 +44,13 @@ namespace :deploy do
     end
   end
 
-  after :publishing, :restart
+  after :publishing, 'deploy:restart'
 
   after :finishing, 'deploy:cleanup'
 
+end
+
+namespace :deploy do
   after :restart, :clear_cache do
     on roles(:web), in: :groups, limit: 3, wait: 10 do
       # Here we can do anything such as:
@@ -56,5 +59,4 @@ namespace :deploy do
       # end
     end
   end
-
 end
