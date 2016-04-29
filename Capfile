@@ -1,6 +1,5 @@
 # Load DSL and Setup Up Stages
 
-require 'capistrano/bundler'
 
 require 'capistrano/rails'
 
