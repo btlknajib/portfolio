@@ -61,16 +61,20 @@ group :development, :test do
   gem 'web-console', '~> 2.0'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  gem 'capistrano', '~> 3.1.0'
+  gem 'capistrano-bundler', '~> 1.1.2'
+  gem 'capistrano-rails', '~> 1.1.1'
+  gem 'capistrano-rvm'
 
 end
 
-group :production do
-    gem 'capistrano', '~> 3.1.0'
-    gem 'capistrano-bundler', '~> 1.1.2'
-    gem 'capistrano-rails', '~> 1.1.1'
-    gem 'capistrano-rvm', github: "capistrano/rvm"
-    
-end
+# group :production do
+#     gem 'capistrano', '~> 3.1.0'
+#     gem 'capistrano-bundler', '~> 1.1.2'
+#     gem 'capistrano-rails', '~> 1.1.1'
+#     gem 'capistrano-rvm', github: "capistrano/rvm"
+#
+# end
 
 gem 'flipclockjs-rails', '~> 0.7.7'
 gem 'best_in_place', '~> 3.0.1'
