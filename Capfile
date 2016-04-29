@@ -7,6 +7,9 @@ require 'capistrano/rails'
 
 require 'capistrano/rvm'
 
+require 'capistrano/setup'
+require 'capistrano/deploy'
+
 # Includes default deployment tasks
 
 set :rvm_type, :user
